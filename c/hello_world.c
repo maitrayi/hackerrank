@@ -1,12 +1,8 @@
-#include <stdio.h>
-#include <string.h>
-#include <math.h>
-#include <stdlib.h>
+#include <iostream>
+#include <cstdio>
+using namespace std;
 
-int main() 
-{
-    char s[100];
-    scanf("%[^\n]%*c", &s);
-    printf("Hello, World! \n%s",s);  
+int main() {
+    printf("Hello, World!");
     return 0;
 }
